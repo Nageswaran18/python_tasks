@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 
 class Employee:
     def __init__(self,id,name,age,phone_number):
@@ -7,8 +8,10 @@ class Employee:
         self.age=age
         self.phone_number=phone_number
         
-        
-csv_path='C:\\Naga\\day_4\\emp_details.csv'
+
+directory = os.getcwd()
+print(directory)
+csv_path=directory+"\day_4\emp_details.csv"
 
 df=pd.read_csv(csv_path)
 

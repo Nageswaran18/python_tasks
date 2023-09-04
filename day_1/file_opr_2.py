@@ -21,7 +21,7 @@ else:
         content += data
         f.close()  
 
-    output_path = 'C:\\Naga\\day 1\\all_files.txt' 
+    output_path = input("enter your output path:") 
 
     output_file = open(output_path, 'w')
     output_file.write(content)

@@ -1,7 +1,8 @@
 import pandas as pd
+import os
 
-
-csv_file_path='C:\\Naga\\day_4\\employee_task4.csv'
+dictionary = os.getcwd()
+csv_file_path= dictionary+'day_4\employee_task4.csv'
 
 df=pd.read_csv(csv_file_path)
 

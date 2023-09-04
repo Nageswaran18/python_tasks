@@ -14,7 +14,7 @@ data = a.json()
 # data = json.loads(data)
 # print(type(data))
 
-csv_path = 'C:\\Naga\\day_5\\api_form.csv'
+csv_path = input()
 
 with open(csv_path, mode='w', newline='', encoding='utf-8') as f:
     csv_writer = csv.writer(f)
