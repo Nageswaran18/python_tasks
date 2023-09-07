@@ -1,4 +1,11 @@
-id,name,age,experience
-1,naga,20,6 years
-2,swee,26,10 years
-3,siva,24,8 years
+id,name,age,gender,phone_number,experience
+1,naga,20,male,6383902686,6 years
+2,swee,26,female,7865798399,10 years
+3,siva,24,female,8997233478,8 years
+4,punitha,54,female,9870987098,3 years
+5,ramesh,45,male,8435627180,10 years
+6,suresh,23,male,9654675468,19 years
+7,baskaran,54,male,6754321678,20 years
+8,arun_kumar,42,male,7876556231,9 years
+9,kanchana,60,female,8111453896,10 years
+10,dhanush,18,male,9123432167,5 years

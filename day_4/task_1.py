@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-data= pd.read_csv('C:\\Naga\\day_4\\emp.csv',delimiter=',')
+data= pd.read_csv('D:\\Naga\\python_tasks\\day_4\\emp.csv',delimiter=',')
 # print('original dataframe')
 # print(detail)
 # print()

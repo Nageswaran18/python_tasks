@@ -7,7 +7,7 @@ def read_and_write(source_file, target_file, source_encoding, target_encoding):
 
 
 def main():
-    source_file = "C:\\Naga\\day_9\\en.txt"  
+    source_file = "D:\\Naga\\python_tasks\\day_9\\en.txt"  
     target_file = "es_translated_to_en.txt"  
     source_encoding = "iso-8859-1" 
     target_encoding = "utf-16"

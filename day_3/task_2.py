@@ -1,8 +1,8 @@
 import pandas as pd
 
-csv_file_detail=pd.read_csv('C:\\Naga\\day_3\\employee_details.csv')
+csv_file_detail=pd.read_csv('D:\\Naga\\python_tasks\\day_3\\employee_details.csv')
 
-csv_file_monthly_performance=pd.read_csv('C:\\Naga\\day_3\\employee_monthly_performance.csv')
+csv_file_monthly_performance=pd.read_csv('D:\\Naga\\python_tasks\\day_3\\employee_monthly_performance.csv')
 
 csv_merger=pd.merge(
     csv_file_detail,

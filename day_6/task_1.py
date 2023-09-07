@@ -45,7 +45,7 @@ def convert_jpeg_to_pdf(input_directory, output_pdf):
     image_objects[0].save(output_pdf, save_all=True, append_images=image_objects[1:])
 
 if __name__ == "__main__":
-    merge_pdfs(["C:\\Naga\\day_6\\Freshres plan.pdf", "C:\\Naga\\day_6\\LETTER.pdf"], "merged.pdf")
+    merge_pdfs(["D:\\Naga\\python_tasks\\day_6\\Freshres plan.pdf", "D:\\Naga\\python_tasks\\day_6\\LETTER.pdf"], "merged.pdf")
     split_pdf("input.pdf", "output_pages")
     crop_pdf("input.pdf", "cropped.pdf", 50, 50, 400, 400)
     rotate_pdf("input.pdf", "rotated.pdf", 90)

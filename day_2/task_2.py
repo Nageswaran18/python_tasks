@@ -12,7 +12,7 @@ def main()-> None:
     logging.info("this is the info mesg")
 
 if __name__=='__main__':
-    main()
+    main()  
  
 
 

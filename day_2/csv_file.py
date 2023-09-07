@@ -17,8 +17,8 @@ def con_json(csv_path, json_path):
         json_file.write(json.dumps(data, indent=4))
     print('Data conversion completed.')
 
-csv_path = r'C:\\Naga\\day 2\\file.csv'
-json_path = r'C:\\Naga\\day 2\\file.json'
+csv_path = r'D:\\Naga\\python_tasks\\day_2\\file.csv'
+json_path = r'D:\\Naga\\python_tasks\\day_2\\file.json'
 
 con_json(csv_path, json_path)
 
