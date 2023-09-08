@@ -14,3 +14,20 @@ if __name__ == '__main__':
     encodings = ["utf-8", "utf-16", "utf-32", "utf-8-sig"]  
     for encoding in encodings:
         write_and_read(encoding)
+
+
+
+
+# s = " 世界!" 
+# t = s.encode('utf-8')
+# print(t)
+# print(type(t))
+# d = t.decode("utf-8")
+# print(d)
+# print(type(d))
+
+
+
+
+
+
